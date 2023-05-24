@@ -12,12 +12,12 @@ async def reply_forward(message: Message, file_id: int):
     try:
         await message.reply_text(
             f"**Here is Sharable Link of this File:**\n"
-            f"<a href=https://telegram.dog/{Config.BOT_USERNAME}?start=tgnvs_{str_to_b64(str(file_id))}>DOWNLOAD LINK 🔗</a>\n\n"
+            f"https://nvstgstorebot.blogspot.com/p/home.html?fid==tgnvs_{str_to_b64(str(SaveMessage.id))}\n\n"
             f"__To Retrive the Stored File, just open the link!__",
             disable_web_page_preview=True,
             reply_markup=InlineKeyboardMarkup(
 				[
-                    [InlineKeyboardButton("🎬 𝙼𝚘𝚟𝚒𝚎 Link Channal 🎬", url="https://t.me/+O0aUO3TbgR8xZjNl")]
+                    [InlineKeyboardButton("🎬 𝙼𝚘𝚟𝚒𝚎 Link Channal 🎬", url="https://nvstgstorebot.blogspot.com/p/home.html?fid==tgnvs_{str_to_b64(str(SaveMessage.id))}")]
                 ]
 			),
             quote=True)
