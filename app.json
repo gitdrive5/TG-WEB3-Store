@@ -1,15 +1,12 @@
 {
-    "name": "File Store Bot",
-    "description": "A Telegram Files Store Bot to protect your Files in Pyrogram by @TheTeleRoid",
+    "name": "Store Bot",
+    "description": "A Telegram Files Store Bot to protect your Files",
     "keywords": [
         "telegram",
-        "files",
         "store",
         "bot"
     ],
-    "repository": "https://github.com/PredatorHackerzZ/TG-FileStore",
-    "website": "https://telegram.dog/PredatorHackerzZ",
-    "success_url": "https://t.me/TeleRoidGroup",
+    "repository": "https://github.com/gitdrive5/TG-WEB3-Store/tree/main",
     "logo": "https://telegra.ph/file/b39906f572822b3ab82c8.jpg",
     "env": {
         "API_ID": {
@@ -49,7 +46,7 @@
     "formation": {
         "worker": {
             "quantity": 1,
-            "size": "free"
+            "size": "eco"
         }
     }
 }
